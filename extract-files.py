@@ -1,6 +1,6 @@
 #!/usr/bin/env -S PYTHONPATH=../../../tools/extract-utils python3
 #
-# SPDX-FileCopyrightText: 2024 The LineageOS Project
+# SPDX-FileCopyrightText: 2024-2026 The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -26,7 +26,7 @@ from extract_utils.utils import (
 
 namespace_imports = [
     'hardware/oplus',
-    'vendor/oneplus/sm8350-common',
+    'vendor/oneplus/sm8450-common',
     'vendor/qcom/opensource/display',
 ]
 
@@ -105,7 +105,7 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'lemonadep',
+    'wly',
     'oneplus',
     namespace_imports=namespace_imports,
     blob_fixups=blob_fixups,
@@ -115,6 +115,6 @@ module = ExtractUtilsModule(
 
 if __name__ == '__main__':
     utils = ExtractUtils.device_with_common(
-        module, 'sm8350-common', module.vendor
+        module, 'sm8450-common', module.vendor
     )
     utils.run()
