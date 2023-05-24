@@ -3,12 +3,12 @@
     <densityMapping>
         <density>
             <height>1080</height>
-            <width>2376</width>
+            <width>2412</width>
             <density>450</density>
         </density>
         <density>
             <height>1440</height>
-            <width>3168</width>
+            <width>3216</width>
             <density>560</density>
         </density>
     </densityMapping>
