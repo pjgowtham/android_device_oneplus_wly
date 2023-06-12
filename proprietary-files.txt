@@ -59,17 +59,6 @@ odm/lib/rfsa/adsp/libvdblurless_skel.so
 odm/lib/rfsa/adsp/libvdsuperphoto_skel.so
 odm/lib/rfsa/adsp/libworker_pool.so
 
-# Audio
-odm/lib/libaudioEngineerTest.so
-odm/lib/liblvimfs.so
-odm/lib/liblvimfs_wrapper.so
-vendor/lib/hw/audio.primary.lahaina.so
-vendor/lib/liba2dpoffload.so
-vendor/lib/libextcamera_client.so
-vendor/lib/libgui1_vendor.so
-vendor/lib/libssrec.so
-vendor/lib/vendor.oplus.hardware.extcamera@1.0.so
-
 # Audio firmware
 odm/firmware/tfa98xx.cnt
 
@@ -867,25 +856,6 @@ odm/vendor/firmware/goodixfp.b06
 odm/vendor/firmware/goodixfp.b07
 odm/vendor/firmware/goodixfp.mdt
 
-# Graphics (Adreno firmware)
-vendor/firmware/a660_gmu.bin
-vendor/firmware/a660_sqe.fw
-vendor/firmware/a660_zap.b00
-vendor/firmware/a660_zap.b01
-vendor/firmware/a660_zap.b02
-vendor/firmware/a660_zap.elf
-vendor/firmware/a660_zap.mdt
-
-# IPA firmware
-vendor/etc/init/ipa_fws.rc
-vendor/firmware/ipa_fws.b00
-vendor/firmware/ipa_fws.b01
-vendor/firmware/ipa_fws.b02
-vendor/firmware/ipa_fws.b03
-vendor/firmware/ipa_fws.b04
-vendor/firmware/ipa_fws.elf
-vendor/firmware/ipa_fws.mdt
-
 # Iris
 odm/etc/inparm/iris5/inParm1.txt
 odm/etc/inparm/iris5/inParm10.txt
@@ -975,30 +945,6 @@ odm/etc/sensor/config/lahaina_qrd_sx932x.json
 odm/etc/sensor/config/lahaina_qrd_sx932x_down.json
 odm/etc/sensor/config/lahaina_tcs3707.json
 odm/etc/sensor/sensor_config.json
-
-# VPU firmware
-vendor/firmware/vpu20_4v.b01
-vendor/firmware/vpu20_4v.b02
-vendor/firmware/vpu20_4v.b03
-vendor/firmware/vpu20_4v.b04
-vendor/firmware/vpu20_4v.b05
-vendor/firmware/vpu20_4v.b06
-vendor/firmware/vpu20_4v.b07
-vendor/firmware/vpu20_4v.b08
-vendor/firmware/vpu20_4v.b09
-vendor/firmware/vpu20_4v.b10
-vendor/firmware/vpu20_4v.b11
-vendor/firmware/vpu20_4v.b12
-vendor/firmware/vpu20_4v.b13
-vendor/firmware/vpu20_4v.b14
-vendor/firmware/vpu20_4v.b15
-vendor/firmware/vpu20_4v.b16
-vendor/firmware/vpu20_4v.b17
-vendor/firmware/vpu20_4v.b18
-vendor/firmware/vpu20_4v.b19
-vendor/firmware/vpu20_4v.mbn
-vendor/firmware/vpu20_4v.mdt
-vendor/firmware/vpu20_4v_unsigned.mbn
 
 # WiFi
 odm/etc/wifi/bdwlan.elf
