@@ -376,50 +376,6 @@
     <!-- Light sensor event rate in milliseconds for automatic brightness control. -->
     <integer name="config_autoBrightnessLightSensorRate">200</integer>
 
-    <!-- Minimum color temperature, in Kelvin, supported by display white balance. -->
-    <integer name="config_displayWhiteBalanceColorTemperatureMin">5000</integer>
-
-    <!-- Maximum color temperature, in Kelvin, supported by display white balance. -->
-    <integer name="config_displayWhiteBalanceColorTemperatureMax">7400</integer>
-
-    <!-- See DisplayWhiteBalanceController.
-         An array containing a list of display color temperatures, in Kelvin. See
-         config_displayWhiteBalanceAmbientColorTemperatures for additional details.
-         The same restrictions apply to this array. -->
-    <integer-array name="config_displayWhiteBalanceDisplayColorTemperatures">
-        <item>5604</item>
-        <item>5604</item>
-        <item>5629</item>
-        <item>5657</item>
-        <item>5686</item>
-        <item>5713</item>
-        <item>5749</item>
-        <item>5877</item>
-        <item>6056</item>
-        <item>6202</item>
-        <item>6348</item>
-        <item>6506</item>
-        <item>6673</item>
-        <item>6834</item>
-        <item>6974</item>
-        <item>7080</item>
-        <item>7160</item>
-        <item>7261</item>
-        <item>7409</item>
-        <item>7537</item>
-        <item>7658</item>
-        <item>7771</item>
-        <item>7873</item>
-        <item>7873</item>
-        <item>7873</item>
-        <item>7873</item>
-        <item>7873</item>
-        <item>7873</item>
-        <item>7873</item>
-        <item>7873</item>
-        <item>7873</item>
-    </integer-array>
-
     <!-- Control whether the always on display mode is available. This should only be enabled on
          devices where the display has been tuned to be power efficient in DOZE and/or DOZE_SUSPEND
          states. -->
