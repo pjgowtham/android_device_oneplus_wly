@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- Whether to enable framework dimming for UDFPS -->
+    <bool name="config_udfpsFrameworkDimming">true</bool>
+
+    <!-- Array of brightness-alpha LUT for framework dimming -->
+    <string-array name="config_udfpsDimmingBrightnessAlphaArray" translatable="false">
+          <item>0,250</item>
+          <item>1,232</item>
+          <item>2,223</item>
+          <item>3,219</item>
+          <item>4,213</item>
+          <item>5,207</item>
+          <item>6,203</item>
+          <item>7,198</item>
+          <item>8,193</item>
+          <item>10,187</item>
+          <item>11,185</item>
+          <item>12,183</item>
+          <item>13,180</item>
+          <item>14,179</item>
+          <item>15,176</item>
+          <item>17,172</item>
+          <item>20,163</item>
+          <item>23,157</item>
+          <item>24,155</item>
+          <item>27,148</item>
+          <item>29,144</item>
+          <item>31,140</item>
+          <item>35,136</item>
+          <item>39,124</item>
+          <item>41,123</item>
+          <item>45,118</item>
+          <item>47,116</item>
+          <item>51,108</item>
+          <item>56,102</item>
+          <item>60,96</item>
+          <item>67,88</item>
+          <item>71,85</item>
+          <item>80,76</item>
+          <item>90,68</item>
+          <item>96,66</item>
+          <item>101,61</item>
+          <item>107,58</item>
+          <item>121,49</item>
+          <item>136,42</item>
+          <item>142,38</item>
+          <item>149,35</item>
+          <item>176,19</item>
+          <item>190,17</item>
+          <item>255,0</item>
+    </string-array>
+
+    <!-- The amount of delay to add when disabling the dimming.
+         This is used to prevent flickers due to the dimming being disabled
+         before the screen has had chance to switch out of HBM mode -->
+    <integer name="config_udfpsDimmingDisableDelay">35</integer>
+
+</resources>
