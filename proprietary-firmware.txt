@@ -1,7 +1,8 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 9 Pro (LE2125_13.1.0.592(EX01)).
+## are from OnePlus 10 Pro 5G (NE2213_14.0.0.300(EX01)).
 
 abl.img;AB
+aop_config.img;AB
 aop.img;AB
 bluetooth.img;AB
 cpucp.img;AB
@@ -13,14 +14,14 @@ hyp.img;AB
 imagefv.img;AB
 keymaster.img;AB
 modem.img;AB
-multiimgoem.img;AB
 oplus_sec.img;AB
 oplusstanvbk.img;AB
 qupfw.img;AB
-qweslicstore.img;AB
 shrm.img;AB
 splash.img;AB
 tz.img;AB
+uefi.img;AB
 uefisecapp.img;AB
-xbl.img;AB
 xbl_config.img;AB
+xbl.img;AB
+xbl_ramdump.img;AB
