@@ -1,1 +1,1 @@
-require board=lahaina|OnePlus9Pro
+require board=lahaina|wly

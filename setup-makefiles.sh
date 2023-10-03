@@ -8,8 +8,8 @@
 
 set -e
 
-export DEVICE=lemonadep
-export DEVICE_COMMON=sm8350-common
+export DEVICE=wly
+export DEVICE_COMMON=sm8450-common
 export VENDOR=oneplus
 
 "./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
