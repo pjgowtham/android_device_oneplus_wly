@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 10 Pro 5G (NE2211_14.0.0.80(EX01)).
+## are from OnePlus 10 Pro 5G (NE2211_14.0.0.202(EX01)).
 
 # ACDB
 odm/etc/acdbdata/FTM/acdb_cal.acdb
