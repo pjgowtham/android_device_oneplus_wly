@@ -34,6 +34,7 @@ TARGET_SCREEN_WIDTH := 1080
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
+    android.hardware.nfc@1.2.vendor \
     android.hardware.secure_element@1.2.vendor \
     com.android.nfc_extras \
     Tag
