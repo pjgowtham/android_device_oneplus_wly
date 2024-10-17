@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- Whether to enable framework dimming for UDFPS -->
+    <bool name="config_udfpsFrameworkDimming">true</bool>
+
+</resources>
