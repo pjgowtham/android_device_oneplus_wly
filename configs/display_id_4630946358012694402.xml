@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<displayConfiguration>
+    <!-- root node for HBM-->
+    <highBrightnessMode enabled="true">
+        <!-- Transition point brightness from normal to HBM mode -->
+        <transitionPoint>0.4998779</transitionPoint>
+        <!-- Minimum lux to enter HBM -->
+        <minimumLux>6001</minimumLux>
+        <!-- Time limitation for HBM-->
+        <timing>
+            <timeWindowSecs>0</timeWindowSecs>
+            <timeMaxSecs>0</timeMaxSecs>
+            <timeMinSecs>0</timeMinSecs>
+        </timing>
+        <!-- Thermal limitation for HBM -->
+        <thermalStatusLimit>critical</thermalStatusLimit>
+        <!-- Low power mode limitation for HBM -->
+        <allowInLowPowerMode>true</allowInLowPowerMode>
+    </highBrightnessMode>
+</displayConfiguration>
