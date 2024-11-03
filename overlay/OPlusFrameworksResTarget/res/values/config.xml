@@ -381,6 +381,10 @@
     <!-- Light sensor event rate in milliseconds for automatic brightness control. -->
     <integer name="config_autoBrightnessLightSensorRate">200</integer>
 
+    <!-- The maximum range of gamma adjustment possible using the screen
+         auto-brightness adjustment setting. -->
+    <fraction name="config_autoBrightnessAdjustmentMaxGamma">100%</fraction>
+
     <!-- Minimum color temperature, in Kelvin, supported by display white balance. -->
     <integer name="config_displayWhiteBalanceColorTemperatureMin">5000</integer>
 
