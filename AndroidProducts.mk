@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ferrari.mk
+    $(LOCAL_DIR)/lineage_wly.mk

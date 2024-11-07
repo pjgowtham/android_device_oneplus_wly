@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from realme GT 2 Pro (RMX3301_14.0.0.801(EX01)).
+## are from OnePlus 10 Pro 5G (NE2213_14.0.0.920(EX01)).
 
 # ACDB
 odm/etc/acdbdata/EU/acdb_cal.acdb
