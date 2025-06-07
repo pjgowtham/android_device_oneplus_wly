@@ -25,8 +25,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_taro/sound_trigger_platform_info.xml
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2412
-TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 3216
+TARGET_SCREEN_WIDTH := 1440
 
 # Camera
 PRODUCT_COPY_FILES += \
