@@ -11,6 +11,7 @@ DEVICE_PATH := device/oneplus/wly
 
 # Display
 TARGET_SCREEN_DENSITY := 450
+$(call soong_config_set,qtidisplay,oplus_udfps,true)
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
