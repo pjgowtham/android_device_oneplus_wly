@@ -6,7 +6,7 @@
             <width>1080</width>
             <density>450</density>
         </density>
-        <density>
+        <density default="true">
             <height>3216</height>
             <width>1440</width>
             <density>600</density>
