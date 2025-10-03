@@ -1381,6 +1381,7 @@ odm/etc/inparm/irissoft/mcfCheck_low.txt
 odm/etc/irissoft.fw
 odm/etc/irissoft_oplus.xml
 odm/etc/irissoft_samsung_S6E3HC3_dsc_cmd_mode_panel.xml
+odm/etc/irissoft_samsung_S6E3HC3_dsc_cmd_mode_panel.fw|eba04e983c770eeacb81746eb32ab1785396f645
 
 # NFC
 odm/etc/nfc/libnfc-mtp-SN100.conf_20847:vendor/etc/libnfc-nxp.conf
