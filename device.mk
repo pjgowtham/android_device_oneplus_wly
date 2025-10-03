@@ -35,6 +35,8 @@ TARGET_SCREEN_WIDTH := 1440
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display_id_4630946358012694402.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946358012694402.xml
 
+$(call soong_config_set,qtidisplay,oplus_udfps,true)
+
 # Lineage Health
 $(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class/oplus_chg/battery/mmi_charging_enable)
 

@@ -9,7 +9,6 @@ include device/oneplus/sm8450-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/oneplus/wly
 
-
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
