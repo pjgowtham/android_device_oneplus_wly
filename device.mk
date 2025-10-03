@@ -38,9 +38,6 @@ PRODUCT_COPY_FILES += \
 $(call soong_config_set,qtidisplay,oplus_udfps,true)
 $(call soong_config_set,qtidisplay,pxlw_vendor_namespace,vendor/oneplus/sm8450-common)
 
-# Lineage Health
-$(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class/oplus_chg/battery/mmi_charging_enable)
-
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
