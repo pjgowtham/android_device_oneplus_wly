@@ -1333,6 +1333,62 @@ odm/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
 odm/lib64/vendor.qti.esepowermanager@1.0.so
 odm/lib64/vendor.qti.esepowermanager@1.1.so
 
+# EVA firmware
+vendor/firmware/evass-lt-21.b00
+vendor/firmware/evass-lt-21.b01
+vendor/firmware/evass-lt-21.b02
+vendor/firmware/evass-lt-21.b03
+vendor/firmware/evass-lt-21.b04
+vendor/firmware/evass-lt-21.b05
+vendor/firmware/evass-lt-21.b06
+vendor/firmware/evass-lt-21.b07
+vendor/firmware/evass-lt-21.b08
+vendor/firmware/evass-lt-21.b09
+vendor/firmware/evass-lt-21.b10
+vendor/firmware/evass-lt-21.b11
+vendor/firmware/evass-lt-21.b12
+vendor/firmware/evass-lt-21.b13
+vendor/firmware/evass-lt-21.b14
+vendor/firmware/evass-lt-21.b15
+vendor/firmware/evass-lt-21.b16
+vendor/firmware/evass-lt-21.b17
+vendor/firmware/evass-lt-21.b18
+vendor/firmware/evass-lt-21.b19
+vendor/firmware/evass-lt-21.mbn
+vendor/firmware/evass-lt-21.mdt
+vendor/firmware/evass.b00
+vendor/firmware/evass.b01
+vendor/firmware/evass.b02
+vendor/firmware/evass.b03
+vendor/firmware/evass.b04
+vendor/firmware/evass.b05
+vendor/firmware/evass.b06
+vendor/firmware/evass.b07
+vendor/firmware/evass.b08
+vendor/firmware/evass.b09
+vendor/firmware/evass.b10
+vendor/firmware/evass.b11
+vendor/firmware/evass.b12
+vendor/firmware/evass.b13
+vendor/firmware/evass.b14
+vendor/firmware/evass.b15
+vendor/firmware/evass.b16
+vendor/firmware/evass.b17
+vendor/firmware/evass.b18
+vendor/firmware/evass.b19
+vendor/firmware/evass.mbn
+vendor/firmware/evass.mdt
+vendor/firmware/evautil64.b00
+vendor/firmware/evautil64.b01
+vendor/firmware/evautil64.b02
+vendor/firmware/evautil64.b03
+vendor/firmware/evautil64.b04
+vendor/firmware/evautil64.b05
+vendor/firmware/evautil64.b06
+vendor/firmware/evautil64.b07
+vendor/firmware/evautil64.b08
+vendor/firmware/evautil64.mdt
+
 # Fingerprint
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
 odm/bin/init.oplus.fingerprints.sh
@@ -1352,6 +1408,19 @@ odm/vendor/firmware/goodixfp.b05
 odm/vendor/firmware/goodixfp.b06
 odm/vendor/firmware/goodixfp.b07
 odm/vendor/firmware/goodixfp.mdt
+
+# Graphics (Adreno firmware)
+vendor/firmware/a730_sqe.fw
+vendor/firmware/a730_zap.b00
+vendor/firmware/a730_zap.b01
+vendor/firmware/a730_zap.b02
+vendor/firmware/a730_zap.elf
+vendor/firmware/a730_zap.mbn
+vendor/firmware/a730_zap.mdt
+vendor/firmware/gmu_gen70000.bin
+vendor/gpu/kbc/sequence_manifest.bin
+vendor/gpu/kbc/unified_kbcs_64.bin
+vendor/gpu/kbc/unified_ksqs.bin
 
 # Iris
 odm/etc/inparm/irissoft/inParm.lst
