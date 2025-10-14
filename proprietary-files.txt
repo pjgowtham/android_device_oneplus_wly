@@ -948,6 +948,11 @@ odm/lib64/camera/revision.txt
 
 
 
+#odm/lib64/libAncHumanRetain.so
+odm/lib64/aiboost/libQnnHtp.so
+odm/lib64/aiboost/libQnnHtpPrepare.so
+odm/lib64/aiboost/libQnnHtpV69Stub.so
+odm/lib64/aiboost/libQnnSystem.so
 odm/lib64/lib2DSlender.so
 odm/lib64/libAlgoInterface.so
 odm/lib64/libAlgoProcess.so
@@ -956,7 +961,6 @@ odm/lib64/libAncHumBokeh.so
 odm/lib64/libAncHumBokehPost.so
 odm/lib64/libAncHumVideoBase.so
 odm/lib64/libAncHumanDoubleExposure.so
-#odm/lib64/libAncHumanRetain.so
 odm/lib64/libAncHumanSegFigureFusion.so
 odm/lib64/libAncSegBaseSdk.so
 odm/lib64/libAncSegmentSdk.so
@@ -982,6 +986,7 @@ odm/lib64/libPerfectlyClearCruxOpt.so
 odm/lib64/libPlatformValidatorShared.so
 odm/lib64/libPolarrRender.so
 odm/lib64/libPreviewDecisionOld.so
+odm/lib64/libQnnHtpAltPrepV69Stub.so
 odm/lib64/libRbsFlow_cap.so
 odm/lib64/libRedeyeReduce.so
 odm/lib64/libSNPE.so
@@ -1010,11 +1015,6 @@ odm/lib64/libaiboost_hexagon.so
 odm/lib64/libaisal.so
 odm/lib64/libaisd.so
 odm/lib64/libaiseg.so
-odm/lib64/aiboost/libQnnHtp.so
-odm/lib64/aiboost/libQnnHtpPrepare.so
-odm/lib64/aiboost/libQnnHtpV69Stub.so
-odm/lib64/aiboost/libQnnSystem.so
-odm/lib64/libQnnHtpAltPrepV69Stub.so
 odm/lib64/libalCFR.so
 odm/lib64/libalgoFisheye.so
 odm/lib64/libancbase_rt_bokeh.so
@@ -1066,7 +1066,6 @@ odm/lib64/libarcsoft_turbo_fusion_raw_grf.so
 odm/lib64/libarcsoft_turbo_fusion_raw_portrait_super_night.so
 odm/lib64/libarcsoft_turbo_fusion_raw_super_night.so
 odm/lib64/libarcsoft_videoautozoom.so;FIX_SONAME
-odm/lib64/libextendfile.so
 odm/lib64/libcalculator.so
 odm/lib64/libcalculator_htp.so
 odm/lib64/libcreatebin.so
@@ -1076,6 +1075,7 @@ odm/lib64/libdualcam_optical_zoom_control.so
 odm/lib64/libdualcam_video_optical_zoom.so
 odm/lib64/libeffect_custom.so
 odm/lib64/libexif-jpeg-aps.so
+odm/lib64/libextendfile.so
 odm/lib64/libextensionlayer.so
 odm/lib64/libhwconfigurationutil.so
 odm/lib64/libhyperlapse.so
@@ -1449,8 +1449,8 @@ odm/etc/inparm/irissoft/mcfCheck.txt
 odm/etc/inparm/irissoft/mcfCheck_low.txt
 odm/etc/irissoft.fw
 odm/etc/irissoft_oplus.xml
-odm/etc/irissoft_samsung_S6E3HC3_dsc_cmd_mode_panel.xml
 odm/etc/irissoft_samsung_S6E3HC3_dsc_cmd_mode_panel.fw|eba04e983c770eeacb81746eb32ab1785396f645
+odm/etc/irissoft_samsung_S6E3HC3_dsc_cmd_mode_panel.xml
 
 # NFC
 odm/etc/nfc/libnfc-mtp-SN100.conf_20847:vendor/etc/libnfc-nxp.conf
