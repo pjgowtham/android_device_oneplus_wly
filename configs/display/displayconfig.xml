@@ -42,10 +42,59 @@
             </point>
         </sdrHdrRatioMap>
     </highBrightnessMode>
+    <autoBrightness enabled="true">
+        <brighteningLightDebounceMillis>1500</brighteningLightDebounceMillis>
+        <darkeningLightDebounceMillis>1500</darkeningLightDebounceMillis>
+    </autoBrightness>
     <screenBrightnessRampFastDecrease>0.06</screenBrightnessRampFastDecrease>
     <screenBrightnessRampFastIncrease>0.06</screenBrightnessRampFastIncrease>
     <screenBrightnessRampSlowDecrease>0.04</screenBrightnessRampSlowDecrease>
     <screenBrightnessRampSlowIncrease>0.04</screenBrightnessRampSlowIncrease>
     <screenBrightnessRampIncreaseMaxMillis>3000</screenBrightnessRampIncreaseMaxMillis>
     <screenBrightnessRampDecreaseMaxMillis>3000</screenBrightnessRampDecreaseMaxMillis>
+    <displayBrightnessChangeThresholds>
+        <brighteningThresholds>
+            <brightnessThresholdPoints>
+                <brightnessThresholdPoint>
+                    <threshold>0</threshold>
+                    <percentage>0</percentage>
+                </brightnessThresholdPoint>
+            </brightnessThresholdPoints>
+        </brighteningThresholds>
+        <darkeningThresholds>
+            <brightnessThresholdPoints>
+                <brightnessThresholdPoint>
+                    <threshold>0</threshold>
+                    <percentage>0</percentage>
+                </brightnessThresholdPoint>
+            </brightnessThresholdPoints>
+        </darkeningThresholds>
+    </displayBrightnessChangeThresholds>
+    <ambientBrightnessChangeThresholds>
+        <brighteningThresholds>
+            <brightnessThresholdPoints>
+                <brightnessThresholdPoint>
+                    <threshold>0</threshold>
+                    <percentage>60</percentage>
+                </brightnessThresholdPoint>
+                <brightnessThresholdPoint>
+                    <threshold>10</threshold>
+                    <percentage>30</percentage>
+                </brightnessThresholdPoint>
+            </brightnessThresholdPoints>
+        </brighteningThresholds>
+        <darkeningThresholds>
+            <brightnessThresholdPoints>
+                <brightnessThresholdPoint>
+                    <threshold>0</threshold>
+                    <percentage>60</percentage>
+                </brightnessThresholdPoint>
+                <brightnessThresholdPoint>
+                    <threshold>10</threshold>
+                    <percentage>30</percentage>
+                </brightnessThresholdPoint>
+            </brightnessThresholdPoints>
+        </darkeningThresholds>
+    </ambientBrightnessChangeThresholds>
+    <defaultDozeBrightness>0.00097680097</defaultDozeBrightness>
 </displayConfiguration>
