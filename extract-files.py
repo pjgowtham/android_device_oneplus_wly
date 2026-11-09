@@ -76,7 +76,8 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('android.hardware.biometrics.face-V1-ndk_platform.so', 'android.hardware.biometrics.face-V1-ndk.so'),
     'odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service': blob_fixup()
         .replace_needed('android.hardware.biometrics.common-V1-ndk_platform.so', 'android.hardware.biometrics.common-V1-ndk.so')
-        .replace_needed('android.hardware.biometrics.fingerprint-V1-ndk_platform.so', 'android.hardware.biometrics.fingerprint-V1-ndk.so'),
+        .replace_needed('android.hardware.biometrics.fingerprint-V1-ndk_platform.so', 'android.hardware.biometrics.fingerprint-V1-ndk.so')
+        .add_needed('libshims_fingerprint.oplus.so'),
     'odm/etc/camera/CameraHWConfiguration.config': blob_fixup()
         .regex_replace('SystemCamera =  0;  0;  1;  1;  1', 'SystemCamera =  0;  0;  0;  0;  1')
         .regex_replace('SystemCamera    = com.oplus.camera', 'SystemCamera    = org.lineageos.aperture'),
